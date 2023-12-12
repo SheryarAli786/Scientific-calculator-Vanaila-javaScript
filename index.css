@@ -1,0 +1,88 @@
+body 
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #ecf0f3;
+}
+.container 
+{ 
+      /* margin-left: 1.8em; */
+    padding: 0px 20px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff; 
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-bottom: .2em;
+    width: 300px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+}
+.row button 
+{
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020,
+               -5px -5px 8px #ffff;
+}
+.input1 {
+    margin-top: .5em;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    box-shadow: inset 8px 8px 8px -8px #cbced1, inset -8px 0 8px -8px #cbced1;
+}
+
+.input2 {
+    margin-bottom: .5em;
+    display: block;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    box-shadow: inset 8px 0 8px -8px #cbced1, inset 8px -8px 8px white;
+}
+
+#equal{
+    background-color: rgb(135, 185, 235);
+    color: white;
+}
+#ac{
+    background-color: red;
+    color: white;
+}
