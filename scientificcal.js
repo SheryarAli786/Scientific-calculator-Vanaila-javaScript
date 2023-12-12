@@ -32,7 +32,7 @@ for (button of buttons) {
       }
       else if (e.target.innerHTML == '√x') {
         val = '√' + str;
-        str='√('+ str +')';
+        str='sqrot('+ str +')';
         // str = 'Math.sqrt(' + str + ')';
         console.log(str)
         document.querySelector('input').value = val;
@@ -185,7 +185,7 @@ function evaluation() {
     .replace(/\b÷\b/g, "/")
     // .replace(/\b√\b/g, 'Math.sqrt')
     // .replace(/\b3√\b/g, "Math.cbrt")
-    .replace('√', 'Math.sqrt')
+    .replace('sqrot', 'Math.sqrt')
     .replace('cube', 'Math.cbrt')
     .replace('custom', 'Math.pow')
     // .replace('(', '*(')
